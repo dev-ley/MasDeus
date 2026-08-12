@@ -13,7 +13,6 @@
 .hero__content {
   position: relative;
   z-index: 2;
-  max-width: 100%;
   padding: 40px;
 
 }
@@ -48,7 +47,6 @@
 }
 
 .hero__cta {
-  margin-top: 5rem;
   background: none;
   border: 1px solid var(--color-gold);
   color: var(--color-gold);
@@ -69,16 +67,15 @@
 /* Desktop refinado */
 @media (min-width: 768px) {
   .hero {
-    height: 520px;
     padding: 4rem 2rem;
   }
 
   .hero__title {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 
   .hero__paragraphs p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .hero__content {
@@ -89,5 +86,27 @@
 
   display: flex;
   justify-content: start;
+  margin-top: 100px;
+}
+
+.setabt{
+  display: none;
+}
+
+
+.hero__cta {
+  width: 300px;
+  background: none;
+  
+  border: 1px solid var(--color-gold);
+  color: var(--color-gold);
+  padding: 0.8rem 1.2rem;
+  border-radius: var(--radius);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background var(--transition);
 }
 }

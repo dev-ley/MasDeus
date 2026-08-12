@@ -1,0 +1,77 @@
+.word-highlight {
+    position: relative;
+    padding: 4rem 1.5rem;
+    background-image: url("../../images/header/imgfundobranco.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--color-dark);
+    text-align: start;
+}
+
+.word-highlight__content {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.word-highlight__title {
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    color: var(--color-gold);
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+}
+
+.word-highlight__divider {
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: var(--color-gold);
+    margin: 20px 0px
+}
+
+.word-highlight__verse {
+    font-family: var(--font-serif);
+    font-size: 3.1rem;
+    line-height: 1.5;
+    color: var(--color-dark);
+    margin: 0;
+}
+
+.word-highlight__ref {
+    font-family: var(--font-sans);
+    color: var(--color-gold);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+
+.word-highlight__refblack {
+    color: black;
+}
+
+.aspas__img {
+    position: relative;
+    top: 40px;
+    right: 70px;
+    width: 200px;
+}
+
+/* Responsivo */
+@media (min-width: 768px) {
+    .word-highlight {
+        padding: 6rem 2rem;
+    }
+
+    .word-highlight__verse {
+        font-size: 2rem;
+    }
+
+    .aspas__img {
+        width: 30px;
+        height: 30px;
+    }
+
+}

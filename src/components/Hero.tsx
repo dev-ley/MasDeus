@@ -7,7 +7,7 @@ export function Hero() {
 
       <div className="hero__content">
         <h2 className="hero__title">
-          A GRAÇA MUDA <span className="hero__highlight">TUDO.</span>
+          A GRAÇA <br /> MUDA <span className="hero__highlight">TUDO.</span>
         </h2>
 
         <div className="hero__paragraphs">
@@ -17,7 +17,7 @@ export function Hero() {
         </div>
 
         <div className="hero_cta_container">
-          <button className="hero__cta">EXPLORAR ARTIGOS →</button>
+          <button className="hero__cta">EXPLORAR ARTIGOS <span className="setabt"> → </span></button>
         </div>
       </div>
     </section>

@@ -1,5 +1,6 @@
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
+import { WordHighlight } from "./components/WordHighlight";
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
       <div className="bg-body">
         <Hero />
       </div>
+      <WordHighlight />
+
     </>
   );
 }
