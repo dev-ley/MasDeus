@@ -2,7 +2,14 @@
   position: relative;
   display: flex;
   color: var(--color-light);
+  background-image: url(../../images/hero/hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 90%;
 }
+
+
 
 .hero__overlay {
   position: absolute;
@@ -14,6 +21,9 @@
   position: relative;
   z-index: 2;
   padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 
 }
 
@@ -35,7 +45,7 @@
 
 .hero__paragraphs p {
   font-family: var(--font-sans);
-  font-size: 1rem;
+  font-size: 22px;
   opacity: 0.85;
   margin: 0.3rem 0;
 }
@@ -44,6 +54,7 @@
 
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .hero__cta {
@@ -68,6 +79,11 @@
 @media (min-width: 768px) {
   .hero {
     padding: 4rem 2rem;
+    background-image: url(../../images/hero/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
   }
 
   .hero__title {

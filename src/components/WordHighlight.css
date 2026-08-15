@@ -1,7 +1,7 @@
 .word-highlight {
     position: relative;
     padding: 4rem 1.5rem;
-    background-image: url("../../images/header/imgfundobranco.png");
+    background-image: url("../../images/wordHighlight/imgfundobranco.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -63,6 +63,8 @@
 @media (min-width: 768px) {
     .word-highlight {
         padding: 6rem 2rem;
+            height: 650px;
+
     }
 
     .word-highlight__verse {

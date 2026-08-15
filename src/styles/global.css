@@ -31,21 +31,3 @@ a {
   color: inherit;
 }
 
-.bg-body {
-  background-image: url(../../images/header/hero.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: 90%;
-}
-
-@media (min-width: 768px) {
-
-  .bg-body {
-    background-image: url(../../images/header/hero.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-  }
-}
